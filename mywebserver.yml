@@ -9,5 +9,5 @@
       
   - name: i want to start webserver
     service:
-      name: apache2
-      state: strted
+       name: apache2
+       state: strted
