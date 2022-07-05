@@ -23,6 +23,6 @@
 
   - name: i want to install webserver on RedHat
     service:
-       name: "{{mywebpackonredhat}]"
+       name: "{{mywebpackonredhat}}"
        state: started
     when: ansible_os_family =="RedHat"
