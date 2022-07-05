@@ -15,7 +15,7 @@
        state: started
     when: ansible_os_family =="Debian"
 
-  - name: i want to install webserver on RedHat
+  - name: i want to install webserver  on RedHat
     yum:
       name: httpd
       stste: present
