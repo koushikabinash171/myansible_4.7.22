@@ -12,7 +12,7 @@
       name: tree
       state: present
 
-  - name: install cell
+  - name: install wget
     apt:
-      name: cell
+      name: wget
       state: present
