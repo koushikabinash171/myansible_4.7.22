@@ -12,7 +12,7 @@
       name: tree
       state: present
 
-  - name: install phone
+  - name: install cell
     apt:
-      name: phone
+      name: cell
       state: present
