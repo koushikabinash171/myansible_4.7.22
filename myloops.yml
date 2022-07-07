@@ -1,0 +1,12 @@
+---
+- name: 172.31.19.113
+  become: yes
+  tasks:
+  - name: i want execute multi package
+    apt:
+      name: "{{ item }}"
+      state: present
+    loop:
+      -git
+      -tree
+      -wget
