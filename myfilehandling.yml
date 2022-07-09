@@ -22,5 +22,5 @@
     handlers:
     - name: restartwebserver
       systemb:
-           name: apache2
-           state: restarted
+          name: apache2
+          state: restarted
