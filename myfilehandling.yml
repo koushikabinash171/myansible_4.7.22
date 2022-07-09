@@ -22,8 +22,8 @@
   - name: download remoat file
     get_url:
        url: https://s3.ap-south-1.amazonaws.com/koushik.9/mybike.yml
-       dest: /home/ubuntu/koushiklogin.war
-       force_basic_auth: yes
+       dest: /home/ubuntu/mahalogin.war
+       force_basic_auth: yee
 
     handlers:
     - name: restartwebserver
