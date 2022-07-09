@@ -22,5 +22,5 @@
   - name: download remoat file
     get_url:
        url: http://example.com/path/file.conf
-       dest: /home/ubuntu/
+       dest: /home/ubuntu/mahalogin.war
        force_basic_auth: yes
