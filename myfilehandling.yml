@@ -18,3 +18,9 @@
     template:
       src: myindexfile.j2
       dest: /var/www/html/index.html
+  
+  - name: download remoat file
+    get_url:
+       url: http://example.com/path/file.conf
+       dest: /home/ubuntu/
+       force_basic_auth: yes
