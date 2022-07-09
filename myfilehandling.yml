@@ -18,10 +18,9 @@
     template:
       src: myindexfile.j2
       dest: /var/www/html/index.html
-    notify: restartwebserver
-
-    handlers:
-    - name: restartwebserver
-      systemd:
-         name: apache2
-         state: restarted
+     
+  - name: download remote file
+    get_url:
+       url: https://s3.ap-south-1.amazonaws.com/koushik.9/mybike.yml
+       dest: /home/ubuntu/mybike.yml
+       force_basic_auth: yes
