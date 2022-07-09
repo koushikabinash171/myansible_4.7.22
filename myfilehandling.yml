@@ -21,12 +21,6 @@
   
   - name: download remoat file
     get_url:
-       url: http://example.com/path/file.conf
-       dest: /home/ubuntu/mahalogin.war
+       url: https://s3.ap-south-1.amazonaws.com/koushik.9/mybike.yml
+       dest: /home/ubuntu/koushiklogin.war
        force_basic_auth: yes
-
-  handlers:
-  - name: restartwebserver
-    systemd:
-       name: apache2
-       state: restarted
