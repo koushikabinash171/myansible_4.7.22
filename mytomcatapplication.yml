@@ -1,5 +1,5 @@
 ---
 - hosts: 172.31.47.168
   become: yes
-  Roles:
+  roles:
   - {Role: mytomcatRole, when: ansible_os_family =="Debian"}
