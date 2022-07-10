@@ -10,7 +10,7 @@
 - name: create a folder
   file:
     path: /opt/tomcat
-    state: present
+    state: directory
 
 
 
