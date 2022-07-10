@@ -1,9 +1,9 @@
 ---
-  # tasks file for mytomcatrole
-  - include_tasks: myuser.yml
-  - include_tasks: installjava.yml
-  - include_tasks: download.yml
-  - include_tasks: permisions.yml
-  - include_tasks: ConfiguringAdminUsers.yml
-  - include_tasks: tomcatservicefile.yml
-  - include_tasks: tomcatstart.yml
+# tasks file for mytomcatRolE  
+- include_tasks: myuser.yml
+- include_tasks: installjava.yml
+- include_tasks: download.yml
+- include_tasks: permisions.yml
+- include_tasks: ConfiguringAdminUsers.yml
+- include_tasks: tomcatservicefile.yml
+- include_tasks: tomcatstart.yml
