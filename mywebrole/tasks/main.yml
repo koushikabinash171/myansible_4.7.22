@@ -1,5 +1,5 @@
 ---
-# tasks file for mytomcatRolE  
+# tasks file for mytomcatRole  
 - include_tasks: myuser.yml
 - include_tasks: installjava.yml
 - include_tasks: download.yml
