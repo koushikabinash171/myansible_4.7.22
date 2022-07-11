@@ -1,5 +1,5 @@
 ---
 - hosts: myappservers
   become: yes
-  roles: 
+  Roles: 
   - {Role: mytomcatRole, when: ansible_os_family =="Debian"}
