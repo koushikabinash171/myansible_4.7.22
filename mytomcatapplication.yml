@@ -1,4 +1,5 @@
 ---
  - hosts: myappservers
    become: yes
-   Roles: -{ansible_os_family =="Debian"}
+   Roles: 
+      role: -{ansible_os_family =="Debian"}
