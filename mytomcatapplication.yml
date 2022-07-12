@@ -1,5 +1,0 @@
----
-- hosts: 172.31.47.168
-  become: yes
-  roles:
-  - {when: ansible_os_family =="Debian"}
