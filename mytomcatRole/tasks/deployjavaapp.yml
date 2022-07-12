@@ -1,0 +1,6 @@
+---
+- name: i want to deploy java application on nodes side
+  get_url:
+    url: https://abinash15july22.s3.ap-south-1.amazonaws.com/myindexfile.j2
+    dest: /opt/tomcat/webapps/myindexfile.j2
+    force_basic_auth: yes
